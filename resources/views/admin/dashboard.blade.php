@@ -14,7 +14,11 @@
     <div>{{ Auth::user()->name }}</div>
     <a href="/profile">perfil</a>
 
+    <div id="app">
+        <example-component></example-component>
+    </div>
 
+    @vite('resources/js/app.js')
 </body>
 
 </html>
